@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11cbf30b-4dc9-4251-8d74-2ed57731b7a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-02-23T150814.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_commons_9_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_fontawesome_4_7_0_9_1_2 2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pos System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pos System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/APIConnection.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/APIConnection.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/APICommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/APICommunication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/CashPaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/CashPaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/possystem/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/CategoryMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/CategoryMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Cash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Cash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Checkout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/possystem/fxml/POS-Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CategoryMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CategoryMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/POS-Cash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/POS-Cash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/POS-Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/POS-Checkout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/POS-Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/POS-Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/POS-Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/POS-Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/CashPaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/CashPaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/CheckoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/CheckoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/CategoryMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/CategoryMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Cash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Cash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Checkout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Checkout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/possystem/fxml/POS-Menu.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28cVPyoCqDCBbGudFN7UtFyepTE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AdminSystem" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.46711153" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.possystem.Main" />
+      <module name="PosSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.possystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11cbf30b-4dc9-4251-8d74-2ed57731b7a7" name="Changes" comment="" />
+      <created>1651515841143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651515841143</updated>
+    </task>
+    <servers />
+  </component>
+</project>

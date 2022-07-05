@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.possystem.controller.CashPaymentController">
+  <children>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="750.0" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox prefHeight="555.0" prefWidth="144.0" style="-fx-background-color: #66c5c8;">
+               <children>
+                  <ToggleButton fx:id="btnCategory" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#checkout" prefHeight="63.0" prefWidth="144.0" style="-fx-background-color: #66c5c8; -fx-border-color: #e3fcfc; -fx-border-width: 0px 0px 2px 0px;" text="Checkout">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Button" />
+                     </toggleGroup>
+                  </ToggleButton>
+               </children>
+            </VBox>
+            <Label layoutX="235.0" layoutY="248.0" prefHeight="27.0" prefWidth="144.0" style="-fx-font-weight: bold;" text="Amount Paid:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <TextField fx:id="txtAmount" layoutX="381.0" layoutY="248.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <Label layoutX="236.0" layoutY="179.0" prefHeight="27.0" prefWidth="135.0" style="-fx-font-weight: bold;" text="Total Owed:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <TextField fx:id="txtOwed" editable="false" layoutX="381.0" layoutY="177.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <Button layoutX="352.0" layoutY="341.0" mnemonicParsing="false" onAction="#processPayment" prefHeight="39.0" prefWidth="107.0" style="-fx-background-color: #66c5c8; -fx-border-color: black; -fx-border-insets: -1; -fx-border-width: 2;" text="Process">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Label fx:id="lblProcessMessage" alignment="CENTER" layoutX="301.0" layoutY="298.0" prefHeight="27.0" prefWidth="210.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

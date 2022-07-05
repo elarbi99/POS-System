@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="831.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.possystem.controller.CategoryController">
+   <children>
+      <BorderPane layoutX="-11.0" prefHeight="597.0" prefWidth="844.0" style="-fx-background-color: #f5f5f5;">
+         <left>
+            <VBox prefHeight="518.0" prefWidth="193.0" style="-fx-background-color: #66c5c8;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="logOut" mnemonicParsing="false" onAction="#logout" prefHeight="81.0" prefWidth="202.0" style="-fx-background-color: #66c5c8; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #e3fcfc;" text="Log Out">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox prefHeight="79.0" prefWidth="844.0" style="-fx-background-color: #2ddae0;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PastyLogo.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="30.0" top="20.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-style: arial;" text="Deve's Pasty Shop">
+                     <HBox.margin>
+                        <Insets left="10.0" top="25.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="freshPasty" fitHeight="145.0" fitWidth="150.0" layoutX="60.0" layoutY="296.0" onMouseClicked="#mouseClickedFresh" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PastyLogo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="85.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fresh Pasties">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="refrigeratedPasty" fitHeight="145.0" fitWidth="150.0" layoutX="254.0" layoutY="296.0" onMouseClicked="#mouseClickedRefrigerated" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PastyLogo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="otherPasty" fitHeight="145.0" fitWidth="150.0" layoutX="359.0" layoutY="93.0" onMouseClicked="#mouseClickedOther" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PastyLogo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="frozenPasty" fitHeight="145.0" fitWidth="150.0" layoutX="123.0" layoutY="93.0" onMouseClicked="#mouseClickedFrozen" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PastyLogo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="GroceryPasty" fitHeight="145.0" fitWidth="150.0" layoutX="458.0" layoutY="296.0" onMouseClicked="#mouseClickedGrocery" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PastyLogo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="143.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frozen Pasties">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="412.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Other">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="279.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Refrigerated">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="503.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grocery">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

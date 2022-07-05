@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="844.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.possystem.controller.MenuController">
+   <bottom>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="844.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox layoutX="-4.0" layoutY="57.0" prefHeight="540.0" prefWidth="144.0" style="-fx-background-color: #66c5c8;">
+                    <children>
+                        <ToggleButton fx:id="btnLogin" mnemonicParsing="false" onAction="#loginScene" prefHeight="65.0" prefWidth="143.0" style="-fx-background-color: #66c5c8; -fx-border-color: #e3fcfc; -fx-border-width: 0px 0px 2px 0px; -fx-font-weight: bold;" text="Log Out">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Button" />
+                     </toggleGroup>
+                        </ToggleButton>
+                        <ToggleButton fx:id="btnCheckOut" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#checkoutScene" prefHeight="63.0" prefWidth="144.0" style="-fx-background-color: #66c5c8; -fx-border-color: #e3fcfc; -fx-border-width: 0px 0px 2px 0px; -fx-font-weight: bold;" text="Checkout" toggleGroup="$Button">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </ToggleButton>
+                    </children>
+                </VBox>
+            <HBox prefHeight="59.0" prefWidth="844.0" style="-fx-background-color: #2ddae0;">
+               <children>
+                  <ImageView fitHeight="31.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@PastyLogo.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Deve's Pasty Shop">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+            </HBox>
+            <Pane layoutX="140.0" layoutY="59.0" prefHeight="538.0" prefWidth="704.0" style="-fx-background-color: #f5f5f5;">
+               <children>
+                      <ToggleButton fx:id="btnAdd3" layoutX="559.0" layoutY="209.0" mnemonicParsing="false" onAction="#addItem3" style="-fx-background-color: #2ddae0;" text="Add" toggleGroup="$Button">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      </ToggleButton>
+                  <Label fx:id="lblPrice3" alignment="CENTER" layoutX="548.0" layoutY="190.0" prefHeight="16.0" prefWidth="63.0" />
+                      <ToggleButton fx:id="btnAdd2" layoutX="329.0" layoutY="209.0" mnemonicParsing="false" onAction="#addItem2" style="-fx-background-color: #2ddae0;" text="Add" toggleGroup="$Button">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      </ToggleButton>
+                  <Label fx:id="lblPrice2" alignment="CENTER" layoutX="318.0" layoutY="189.0" prefHeight="16.0" prefWidth="64.0" />
+                      <ToggleButton fx:id="btnAdd1" layoutX="101.0" layoutY="209.0" mnemonicParsing="false" onAction="#addItem" style="-fx-background-color: #2ddae0; -fx-border-radius: 25px;" text="Add" toggleGroup="$Button">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      </ToggleButton>
+                  <Label fx:id="lblPrice1" alignment="CENTER" layoutX="91.0" layoutY="190.0" prefHeight="17.0" prefWidth="62.0" />
+                      <ToggleButton fx:id="btnAdd6" layoutX="247.0" layoutY="473.0" mnemonicParsing="false" onAction="#addItem5" style="-fx-background-color: #2ddae0;" text="Add" toggleGroup="$Button">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      </ToggleButton>
+                  <Label fx:id="lblPrice6" alignment="CENTER" layoutX="402.0" layoutY="454.0" prefHeight="17.0" prefWidth="82.0" />
+                      <ToggleButton fx:id="btnAdd5" layoutX="75.0" layoutY="473.0" mnemonicParsing="false" onAction="#addItem4" style="-fx-background-color: #2ddae0;" text="Add" toggleGroup="$Button">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      </ToggleButton>
+                  <Label fx:id="lblPrice5" alignment="CENTER" layoutX="234.0" layoutY="454.0" prefHeight="17.0" prefWidth="70.0" />
+                      <ToggleButton fx:id="btnAdd4" layoutX="422.0" layoutY="473.0" mnemonicParsing="false" onAction="#addItem6" style="-fx-background-color: #2ddae0;" text="Add" toggleGroup="$Button">
+                          <font>
+                              <Font size="14.0" />
+                          </font>
+                      </ToggleButton>
+                  <Label fx:id="lblPrice4" alignment="CENTER" layoutX="63.0" layoutY="454.0" prefHeight="17.0" prefWidth="68.0" />
+                  <ImageView fitHeight="124.0" fitWidth="144.0" layoutX="70.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@beefPasty.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="124.0" fitWidth="144.0" layoutX="299.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ChickenPasty.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="124.0" fitWidth="144.0" layoutX="513.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@VegetablePasty.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="123.0" layoutX="380.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@SteakFajita.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="120.0" fitWidth="126.0" layoutX="209.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ChickenPotPie.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="125.0" fitWidth="136.0" layoutX="30.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@TacoFiesta.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="118.0" fitWidth="119.0" layoutX="543.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@AppleDumpling.jpg" />
+                     </image></ImageView>
+                   
+                  <Label fx:id="lblItem1" alignment="CENTER" layoutX="56.0" layoutY="166.0" prefHeight="29.0" prefWidth="133.0" scaleShape="false" />
+                  <Label fx:id="lblItem2" alignment="CENTER" layoutX="285.0" layoutY="166.0" prefHeight="29.0" prefWidth="133.0" />
+                  <Label fx:id="lblItem3" alignment="CENTER" layoutX="513.0" layoutY="166.0" prefHeight="29.0" prefWidth="133.0" />
+                  <Label fx:id="lblItem4" alignment="CENTER" layoutX="31.0" layoutY="428.0" prefHeight="29.0" prefWidth="133.0" scaleShape="false" />
+                  <Label fx:id="lblItem5" alignment="CENTER" layoutX="203.0" layoutY="428.0" prefHeight="29.0" prefWidth="133.0" scaleShape="false" />
+                  <Label fx:id="lblItem6" alignment="CENTER" layoutX="378.0" layoutY="428.0" prefHeight="29.0" prefWidth="133.0" scaleShape="false" />
+                  <ToggleButton fx:id="btnAdd7" layoutX="581.0" layoutY="473.0" mnemonicParsing="false" onAction="#addItem7" style="-fx-background-color: #2ddae0;" text="Add">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Button1" />
+                     </toggleGroup>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </ToggleButton>
+                  <Label fx:id="lblItem61" alignment="CENTER" layoutX="563.0" layoutY="414.0" prefHeight="36.0" prefWidth="126.0" scaleShape="false" />
+                  <Label fx:id="lblItem7" alignment="CENTER" layoutX="537.0" layoutY="428.0" prefHeight="29.0" prefWidth="133.0" scaleShape="false" />
+                  <Label fx:id="lblPrice7" alignment="CENTER" layoutX="562.0" layoutY="454.0" prefHeight="17.0" prefWidth="82.0" />
+                  <Label fx:id="lblAdded1" alignment="CENTER" layoutX="93.0" layoutY="249.0" prefHeight="20.0" prefWidth="60.0" textFill="#00b54f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAdded2" alignment="CENTER" layoutX="321.0" layoutY="249.0" prefHeight="20.0" prefWidth="60.0" textFill="#00b54f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAdded3" alignment="CENTER" layoutX="550.0" layoutY="248.0" prefHeight="20.0" prefWidth="60.0" textFill="#00b54f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAdded4" alignment="CENTER" layoutX="67.0" layoutY="505.0" prefHeight="20.0" prefWidth="60.0" textFill="#00b54f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAdded5" alignment="CENTER" layoutX="239.0" layoutY="505.0" prefHeight="20.0" prefWidth="60.0" textFill="#00b54f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAdded6" alignment="CENTER" layoutX="414.0" layoutY="505.0" prefHeight="20.0" prefWidth="60.0" textFill="#00b54f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblAdded7" alignment="CENTER" layoutX="572.0" layoutY="505.0" prefHeight="20.0" prefWidth="60.0" textFill="#00b54f">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            </children>
+        </AnchorPane>
+   </bottom>
+</BorderPane>
